@@ -8,7 +8,7 @@ def log(*args, **kwargs):
     print(args, kwargs)
 
 
-start_time = datetime.datetime(2019, 12, 21, 10, 20, 0)
+start_time = datetime.datetime(2019, 12, 21, 11, 40, 0)
 print('Program not starting yet...')
 while datetime.datetime.now() < start_time:
     time.sleep(1)
@@ -74,5 +74,5 @@ def post_data(openid, course, stu_name, ass_token):
 
 
 post_data('oLGmWwkDtrc82LpDYWp3q8y7v6d0', '编程', 'Rocky', access_token)
-# post_data('oLGmWwt6e_QtMcZfQR4l9xN1SdN4', '英文进阶', 'Betty', access_token)
-# post_data('oLGmWwjOKkGVYY1dCJfTnrFvi8RA', '衔接班', 'Wonder', access_token)
+post_data('oLGmWwt6e_QtMcZfQR4l9xN1SdN4', '英文进阶', 'server test', access_token)
+post_data('oLGmWwjOKkGVYY1dCJfTnrFvi8RA', '衔接班', 'server test', access_token)
