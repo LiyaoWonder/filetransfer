@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 import time, datetime
 import requests
 import json
