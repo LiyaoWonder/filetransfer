@@ -14,6 +14,7 @@ start_time = datetime.datetime(2019, 12, 21, 11, 40, 0)
 print('Program not starting yet...')
 while datetime.datetime.now() < start_time:
     time.sleep(1)
+    print(datetime.datetime.now())
 print('Program now starts on %s' % start_time)
 print('Executing...')
 
